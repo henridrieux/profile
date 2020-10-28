@@ -1,0 +1,97 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+h1 {
+  color: #2287FF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  color: #2287FF;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300px;
+  background-color: #F9FAFB;
+/*  background-image: url('images/ff.webp');*/
+/*  background-size: cover;*/
+  text-align: center;
+}
+
+#link_green {
+  text-decoration: none;
+  background-color: #0CBD8B;
+  color: white;
+  padding: 15px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#link_green:hover {
+  background-color: #03B381;
+}
+
+
+p {
+  font-family:  Poppins;
+  font-weight: 400px;
+
+}
+
+#logo {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.card {
+  width: 800px;
+  margin : 50px auto;
+  box-shadow: 20px 20px 20px #E9ECF1;
+  padding: 100px
+  border-radius: 10px;
+  padding-bottom: 25px;
+}
+
+.list {
+  list-style: none;
+  text-align: left;
+}
+
+.list_formation {
+  text-align: left;
+}
+
+.list_social {
+  list-style: none;
+}
+
+.list_social li {
+  display: inline-block;
+  width: 200px;
+  font-size: 80px;
+}
+
+.btn-social {
+  color: #0CBD8B;
+}
+
+.btn-social:hover {
+  color: rgb(20, 170, 80);
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  .card {
+    width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  .card {
+    width: 400px;
+  }
+}
+
